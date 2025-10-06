@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	cout << "test diese 1" << endl;
 	cout << formatText::bold("test diese 2") << endl;
-	string text = formatText::italic("test diese 3");
+	string text = formatText::colorF("testtext", formatText::COLORS::RED);
 	cout << text << endl;
 	cout << formatText::underline("test diese 1") << endl;
 	return 0;
