@@ -29,4 +29,18 @@ namespace sort {
 			}
 		} while (merker == 1);
 	}
+
+	int bogoSort(int arr[], int arrSize) {
+		bool sorted = false;
+		int tries = 0;
+		do {
+			util::shuffleArray(arr, arrSize);
+			sorted = util::isArraysSorted(arr, arrSize);
+			tries++;
+
+			util::printArray(arr, arrSize);
+
+		} while (!sorted);
+		return tries;
+	}
 }
