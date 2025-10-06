@@ -25,16 +25,27 @@ namespace formatText {
 	string hidden(string text) { return FORMAT(7, text); }
 	string strikethrough(string text) { return FORMAT(8, text); }
 
-	enum COLORS {
-		Black	30	40
-		Red	31	41
-		Green	32	42
-		Yellow	33	43
-		Blue	34	44
-		Magenta	35	45
-		Cyan	36	46
-		White	37	47
-		Default	39	49
+	enum COLORS_FG {
+		BLACK = 30,
+		RED = 31,
+		GREEN = 32,
+		YELLOW = 33,
+		BLUE = 34,
+		MAGENTA = 35,
+		CYAN = 36,
+		WHITE = 37,
+		DEFAULT = 39
+	};
+	enum COLORS_BG {
+		BLACK = 40,
+		RED = 41,
+		GREEN = 42,
+		YELLOW = 43,
+		BLUE = 44,
+		MAGENTA = 45,
+		CYAN = 46,
+		WHITE = 47,
+		DEFAULT = 49
 	};
 
 	namespace color {
