@@ -10,3 +10,14 @@
 *.db-wal
 *.opendb
 *.vsidx
+/software/projects/formatText/.vs/formatText/CopilotIndices/17.14.719.50355/CodeChunks.db
+/software/projects/formatText/.vs/formatText/CopilotIndices/17.14.719.50355/SemanticSymbols.db
+*.tlog
+*.json
+/software/projects/sort/sort/x64/Debug
+/software/projects/sort/x64/Debug
+/software/projects/sort/.vs/sort
+/software/projects/formatText/.vs/formatText/v17/.suo
+/software/projects/formatText/.vs/formatText/v17/DocumentLayout.backup.json
+/software/projects/formatText/.vs/formatText/v17/DocumentLayout.json
+*.db
