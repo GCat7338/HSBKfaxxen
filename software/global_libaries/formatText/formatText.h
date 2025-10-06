@@ -46,7 +46,6 @@ namespace formatText {
 			+ "\033[m";
 		return ret;
 	}
-
 	string colorF(string text, COLORS foreground) {
 		return colorFB(text, foreground, COLORS::DEFAULT);
 	}
